@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أعمالي اليدوية</title>
+    <meta name="description" content="معرض أعمال يدوية: كروشيه وتريكو وهدايا مصنوعة بحب">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== Header ===== -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">أعمالي</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من أنا</a></li>
+                <li><a href="#projects">أعمالي</a></li>
+                <li><a href="#contact">تواصلي معي</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">أعمالي اليدوية</h1>
+            <p class="hero-subtitle">كل قطعة مصنوعة بحب واهتمام</p>
+            <p class="hero-tag">كروشيه • تريكو • هدايا</p>
+            <a href="#projects" class="btn">شاهدي أعمالي</a>
+        </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">من أنا</h2>
+            <p class="about-text">
+                مرحباً بكم! أنا أصنع قطعاً يدوية فريدة من الخيوط بكل حب وإتقان.
+                كل قطعة تحمل لمسة خاصة وقصة صغيرة، وأتمنى أن تجد فيها ما يسعدكم.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">أعمالي</h2>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="crochet">كروشيه</button>
+                <button class="filter-btn" data-filter="knitting">تريكو</button>
+                <button class="filter-btn" data-filter="gifts">هدايا</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- لإضافة صورة: استبدلي سطر placeholder بـ <img src="images/اسم-الصورة.jpg" alt="وصف الصورة"> -->
+
+                <div class="project-card" data-category="crochet">
+                    <div class="project-image">
+                        <span class="placeholder">مكان الصورة</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>اسم القطعة</h3>
+                        <p>وصف قصير للقطعة</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="knitting">
+                    <div class="project-image">
+                        <span class="placeholder">مكان الصورة</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>اسم القطعة</h3>
+                        <p>وصف قصير للقطعة</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="gifts">
+                    <div class="project-image">
+                        <span class="placeholder">مكان الصورة</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>اسم القطعة</h3>
+                        <p>وصف قصير للقطعة</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">تواصلي معي</h2>
+            <p class="contact-text">للطلبات والاستفسارات، تابعوني وراسلوني على انستغرام</p>
+            <div class="social-links">
+                <!-- غيّري الرابط إلى حسابك الحقيقي -->
+                <a class="social-link" href="https://www.instagram.com/your_account" target="_blank" rel="noopener">
+                    انستغرام
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <p>© جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
