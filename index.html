@@ -4,16 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crochate.m12 - Handmade Crochet & Macrame</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,800;1,900&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Montserrat:wght@500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
 <style>
-body{margin:0;font-family:Georgia,serif;background:#fdf8f0;color:#3a2a2a;text-align:center}
-header{padding:70px 20px 40px;background:#fff8ec}
-h1{font-size:44px;margin:0;font-style:italic;background:linear-gradient(90deg,#6b1020,#c69a3a);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.subtitle{font-size:26px;font-style:italic;margin:10px 0;color:#555}
-.small{letter-spacing:3px;font-size:13px;color:#777}
-section{padding:40px 20px;max-width:700px;margin:auto}
-.card{background:white;padding:25px;border-radius:20px;box-shadow:0 5px 20px rgba(0,0,0,0.08);margin:20px 0}
-a{color:#6b1020;text-decoration:none;font-weight:bold}
-footer{padding:20px;color:#999;font-size:13px}
+:root{--wine:#6b1020;--gold:#a8601f;--cream:#fdf8f0;--sand:#efe6d8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Lora',Georgia,serif;background:var(--cream);color:#3a2a2a;text-align:center}
+header{padding:60px 16px 30px;background:linear-gradient(#fff8ec,var(--cream))}
+h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,11vw,64px);font-weight:900;font-style:italic;letter-spacing:1px;margin:0;padding:0 6px 8px;background:linear-gradient(90deg,var(--wine),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(24px,6vw,30px);font-weight:600;font-style:italic;margin:6px 0 16px;color:#5a3a3a}
+.small{font-family:'Montserrat',sans-serif;font-weight:600;letter-spacing:2px;font-size:11px;color:var(--wine);line-height:1.9}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:760px;margin:26px auto 0;padding:14px;background:var(--sand);border-radius:26px}
+nav a{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#3a2a2a;padding:8px 12px;border-radius:20px}
+nav a:first-child{color:var(--wine)}
+nav a:hover{background:#fff;color:var(--wine)}
+main{max-width:900px;margin:auto;padding:10px 16px 40px}
+.eyebrow{font-family:'Montserrat',sans-serif;font-weight:600;letter-spacing:3px;font-size:12px;color:var(--gold);margin:40px 0 4px}
+h2{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:800;color:var(--wine);font-size:clamp(28px,7vw,38px);margin:0 0 18px}
+.featured{background:#fff;padding:12px;border-radius:24px;box-shadow:0 8px 28px rgba(107,16,32,.15);max-width:520px;margin:0 auto}
+.featured img{width:100%;border-radius:16px;display:block}
+.featured p{font-family:'Montserrat',sans-serif;font-weight:600;letter-spacing:2px;font-size:12px;color:var(--wine);margin:12px 0 4px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.item{background:#fff;border-radius:18px;padding:8px;box-shadow:0 5px 18px rgba(0,0,0,.08)}
+.item img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:12px;display:block;background:var(--sand)}
+.item span{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:600;font-size:20px;color:var(--wine);padding:8px 4px 4px}
+.card{background:#fff;padding:25px;border-radius:20px;box-shadow:0 5px 20px rgba(0,0,0,.08);margin:20px auto;max-width:640px}
+.card h2{font-size:28px;margin-bottom:10px}
+a{color:var(--wine);text-decoration:none;font-weight:bold}
+footer{padding:24px;color:#999;font-size:13px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
@@ -21,13 +42,59 @@ footer{padding:20px;color:#999;font-size:13px}
 <h1>Crochate.m12</h1>
 <div class="subtitle">Handmade Crochet & Macrame</div>
 <div class="small">HANDMADE WITH LOVE | CUSTOM ORDERS WELCOME | WORLDWIDE SHIPPING</div>
+<nav>
+<a href="#sophies-garden">Sophie's Garden</a>
+<a href="#poncho">Poncho Set</a>
+<a href="#mint-vest">Mint Vest</a>
+<a href="#blue-doily">Blue Doily</a>
+<a href="#scarf-beanie">Scarf &amp; Beanie</a>
+<a href="#burgundy">Burgundy Crop Top</a>
+<a href="#navy">Navy Sweater</a>
+<a href="#macrame">Macrame</a>
+<a href="#amigurumi">Amigurumi</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
-<section>
-<div class="card"><h2>Welcome</h2><p>Beautiful handmade pieces, made with love and care.</p></div>
-<div class="card"><h2>About Me</h2><p>I make crochet and macrame pieces - home decor, bags, and custom orders.</p></div>
-<div class="card"><h2>My Work</h2><p>Macrame wall hangings, crochet bags, coasters and more.</p></div>
-<div class="card"><h2>Contact Me</h2><p>For custom orders, message me on Instagram: <a href="https://instagram.com/crochate.m12">@crochate.m12</a></p></div>
-</section>
+
+<main>
+<div class="eyebrow" id="sophies-garden">FIRST FEATURED · FLAGSHIP SINCE 2016</div>
+<h2>Featured Collection</h2>
+<div class="featured">
+<img src="images/sophies-garden.jpg" alt="Sophie's Garden - wall hanging square mandala">
+<p>WALL HANGING • SQUARE MANDALA</p>
+</div>
+
+<div class="eyebrow">CROCHET WEAR</div>
+<h2>Cozy Pieces</h2>
+<div class="grid">
+<div class="item" id="poncho"><img src="images/poncho-set.jpg" alt="Poncho set"><span>Poncho Set</span></div>
+<div class="item" id="mint-vest"><img src="images/mint-vest.jpg" alt="Mint vest"><span>Mint Vest</span></div>
+<div class="item" id="burgundy"><img src="images/burgundy-crop-top.jpg" alt="Burgundy crop top"><span>Burgundy Crop Top</span></div>
+<div class="item" id="navy"><img src="images/navy-sweater.jpg" alt="Navy sweater"><span>Navy Sweater</span></div>
+<div class="item" id="scarf-beanie"><img src="images/scarf-beanie.jpg" alt="Scarf and beanie"><span>Scarf &amp; Beanie</span></div>
+<div class="item" id="blue-doily"><img src="images/blue-doily.jpg" alt="Blue doily"><span>Blue Doily</span></div>
+</div>
+
+<div class="eyebrow" id="macrame">KNOTTED BY HAND</div>
+<h2>Macrame</h2>
+<div class="grid">
+<div class="item"><img src="images/macrame-double-hanger.jpg" alt="Double plant hanger"><span>Double Plant Hanger</span></div>
+<div class="item"><img src="images/macrame-owl.jpg" alt="Macrame owl wall hanging"><span>Owl Wall Hanging</span></div>
+<div class="item"><img src="images/macrame-grey-hanger.jpg" alt="Grey plant hanger"><span>Grey Plant Hanger</span></div>
+</div>
+
+<div class="eyebrow" id="amigurumi">SMALL &amp; SWEET</div>
+<h2>Amigurumi</h2>
+<div class="grid">
+<div class="item"><img src="images/amigurumi-star.jpg" alt="Amigurumi star"><span>Little Star</span></div>
+<div class="item"><img src="images/amigurumi-bunny.jpg" alt="Amigurumi bunny"><span>Happy Bunny</span></div>
+<div class="item"><img src="images/holiday-ornaments.jpg" alt="Crochet holiday ornaments"><span>Holiday Ornaments</span></div>
+</div>
+
+<div class="card" id="about"><h2>About Me</h2><p>I make crochet and macrame pieces - home decor, bags, and custom orders.</p></div>
+<div class="card" id="contact"><h2>Contact Me</h2><p>For custom orders, message me on Instagram: <a href="https://instagram.com/crochate.m12">@crochate.m12</a></p></div>
+</main>
 <footer>© 2026 Crochate.m12 - Handmade with Love</footer>
 </body>
 </html>
